@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+@keyframes slideLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-carousel {
+  display: flex;
+  width: max-content;
+  animation: slideLeft 25s linear infinite;
+}
+
+.animate-carousel:hover {
+  animation-play-state: paused;
+}
+@keyframes slideLeft {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+
+.animate-carousel {
+  width: max-content;
+  animation: slideLeft 25s linear infinite;
+}
+
+
+.animate-carousel:hover {
+  animation-play-state: paused;
+}
