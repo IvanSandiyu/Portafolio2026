@@ -1,7 +1,7 @@
 const jobs = [
 
     {
-        year: "2025 - Actualidad",
+        year: "2025 - 2025",
 
         title: "Desarrollador Backend",
 
@@ -18,7 +18,7 @@ const jobs = [
     {
         year: "2024 - 2025",
 
-        title: "Desarrollador Full Stack",
+        title: "Pasante Desarrollador Full Stack",
 
         company: "Grandi y Asociados",
 
